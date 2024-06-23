@@ -11,13 +11,12 @@ public class Board {
         initializeBoard();
     }
 
-    
-
     public Board(char[][] board, char currentPlayer) {
         this.board = board;
         this.currentPlayer = currentPlayer;
     }
 
+    
 
 
     public char getCurrentPlayer(){
@@ -94,6 +93,10 @@ public class Board {
 
     public char[][] getBoard(){
         return board;
+    }
+
+    public void setBoard(char[][] board) {
+        this.board = board;
     }
 
 
