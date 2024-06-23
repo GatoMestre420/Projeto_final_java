@@ -5,8 +5,8 @@ import br.edu.up.models.Board;
 
 public class BoardView {
 
-    public void printBoard(Board model) {
-        char[][] gameBoard = model.getBoard();
+    public void printBoard(Board board) {
+        char[][] gameBoard = board.getBoard();
         System.out.println("Current board layout:");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
